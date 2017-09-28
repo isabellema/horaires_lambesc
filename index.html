@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta content="text/html; charset=UTF-8">
 <title>Horaires de commerces &amp; services &agrave; Lambesc</title>
 <meta charset="UTF-8"> 
 <style>
@@ -62,6 +62,9 @@ font-size:8pt;
 <ul><li><div class="place">Hyper Casino</div><div id="hours_hypercasino" class="opening_hours"></div></li></ul>
 <ul><li><div class="place">Boulangerie Moulin des Saveurs</div><div id="hours_boulangerie" class="opening_hours"></div></li></ul>
 <ul><li><div class="place">Dechetterie</div><div id="hours_dechetterie" class="opening_hours"></div></li></ul>
+<ul><li><div class="place">Brico Pro</div><div id="hours_brico_pro" class="opening_hours"></div></li></ul>
+<ul><li><div class="place">Point P</div><div id="hours_brico_pro" class="opening_hours"></div></li></ul>
+<ul><li><div class="place">Serres de Versailles</div><div id="hours_brico_pro" class="opening_hours"></div></li></ul>
 </div>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script src="js/jquery.openStatus.min.js"></script>
@@ -137,6 +140,33 @@ font-size:8pt;
 					thursday : 'ouvert de 9h à 12h et de 14h à 17h',
 					friday : 'ouvert de 9h à 12h et de 14h à 17h',
 					saturday : 'ouvert de 9h à 12h et de 14h à 17h',
+					sunday : 'ouvert de 9h à 12h'
+				});
+				$('#hours_brico_pro').openStatus({
+					monday : 'ouvert de 8h à 12h et de 14h à 18h30',
+					tuesday : 'ouvert de 8h à 12h et de 14h à 18h30',
+					wednesday : 'ouvert de 8h à 12h et de 14h à 18h30',
+					thursday : 'ouvert de 8h à 12h et de 14h à 18h30',
+					friday : 'ouvert de 8h à 12h et de 14h à 18h30',
+					saturday : 'ouvert de 8h à 12h et de 14h à 18h30',
+					sunday : 'fermé jusqu\'à lundi'
+				});
+				$('#hours_point_p').openStatus({
+					monday : 'ouvert de 7h30 à 12h et de 13h30 à 17h30',
+					tuesday : 'ouvert de 7h30 à 12h et de 13h30 à 17h30',
+					wednesday : 'ouvert de 7h30 à 12h et de 13h30 à 17h30',
+					thursday : 'ouvert de 7h30 à 12h et de 13h30 à 17h30',
+					friday : 'ouvert de 7h30 à 12h et de 13h30 à 17h30',
+					saturday : 'ouvert de 8h à 12h',
+					sunday : 'fermé jusqu\'à lundi'
+				});
+				$('#hours_serres_versailles').openStatus({
+					monday : 'ouvert de 9h à 12h et de 15h à 19h',
+					tuesday : 'ouvert de 9h à 12h et de 15h à 19h',
+					wednesday : 'ouvert de 9h à 12h et de 15h à 19h',
+					thursday : 'ouvert de 9h à 12h et de 15h à 19h',
+					friday : 'ouvert de 9h à 12h et de 15h à 19h',
+					saturday : 'ouvert de 9h à 12h et de 15h à 19h',
 					sunday : 'ouvert de 9h à 12h'
 				});
 			});
