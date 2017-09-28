@@ -64,6 +64,8 @@ font-size:8pt;
 <ul><li><div class="place">Brico Pro</div><div id="hours_brico_pro" class="opening_hours"></div></li></ul>
 <ul><li><div class="place">Point P</div><div id="hours_point_p" class="opening_hours"></div></li></ul>
 <ul><li><div class="place">Serres de Versailles</div><div id="hours_serres_versailles" class="opening_hours"></div></li></ul>
+<ul><li><div class="place">Piscine</div><div id="hours_piscine" class="opening_hours"></div></li></ul>
+<ul><li><div class="place">Ludotheque</div><div id="hours_ludotheque" class="opening_hours"></div></li></ul>
 </div>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 		<script src="js/jquery.openStatus.min.js"></script>
@@ -167,6 +169,24 @@ font-size:8pt;
 					friday : 'ouvert de 9h à 12h et de 15h à 19h',
 					saturday : 'ouvert de 9h à 12h et de 15h à 19h',
 					sunday : 'ouvert de 9h à 12h'
+				});
+				$('#hours_piscine').openStatus({
+					monday : 'ouvert de 12h à 14h',
+					tuesday : 'ouvert de 12h à 14h et de 19h30 à 22h',
+					wednesday : 'ouvert de 12h à 18h',
+					thursday : 'ouvert de 12h à 14h',
+					friday : 'ouvert de 12h à 14h',
+					saturday : 'ouvert de 12h à 18h',
+					sunday : 'ouvert de 9h à 12h30'
+				});
+				$('#hours_ludotheque').openStatus({
+					monday : 'fermé jusqu\'à mercredi',
+					tuesday : 'fermé jusqu\'à mercredi',
+					wednesday : 'ouvert de 16h30 à 19h',
+					thursday : 'fermé jusqu\'à vendredi',
+					friday : 'ouvert de 16h30 à 19h',
+					saturday : 'fermé jusqu\'à mercredi',
+					sunday : 'fermé jusqu\'à mercredi'
 				});
 			});
 		</script>
